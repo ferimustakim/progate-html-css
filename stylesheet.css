@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	font-family: "Lucida Grande"
+	
+}
+a {
+	text-decoration: none;
+}
+
+.container{
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.top-wrapper{
+	padding-top: 180px;
+	padding-bottom: 100px;
+	color: white;
+	background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
+	background-size: cover;
+	text-align: center;
+}
+
+.top-wrapper h1{
+	opacity: 0.7;
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+
+.top-wrapper p{
+	opacity: 0.7;
+	margin-bottom: 3px;
+}
+
+.btn{
+	padding: 12px 24px;
+	display: inline-block;
+	color: white;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+/*memberikan efek jika button di tekan akan berganti warnaatau respon lain*/
+.btn:hover{
+	opacity: 1;
+}
+
+.signup{
+	background-color: #239b76;
+}
+
+.facebook{
+	background-color: #3b5998;
+	margin-right: 10px;
+}
+
+.twitter{
+	background-color: #55acee;
+}
+
+.btn-wrapper{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-wrapper p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*mengatur simbol facebook & twitter yang di class fa*/
+.fa{
+	margin-right: 5px;
+}
+
+/* Mengatur header*/
+header{
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+}
+
+/*Mengatur class logo di header*/
+.logo{
+	width: 124px;
+	margin-top: 20px;
+}
+
+/*mengatur class header left untuk logo agar berada dikiri*/
+.header-left{
+	float: left;
+}
+
+/* Mengatur header right agar login berada di sebalah kanan*/
+.header-right{
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: all 0.5s; /*memberikan animasi ke hover*/
+}
+
+/*mengatur tombol login saat di di tunjuk kursor berubah warna*/
+.header-right:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*menengahkan teks log in secara vertikal*/
+.header-right a{
+	line-height: 65px; /*line-hight untuk menengahkan leks log in*/
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+	display: block; /* agar tombol login dpt di klik tidak cuma di tulisan tetapi di selurh ruang*/
+}
+
+/* css mengatur bagian kelas lessons*/
+.lesson-wrapper{
+	height: 500px;
+	padding-bottom: 80px;
+	background-color: #f7f7f7;
+}
+
+.heading{
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2{
+	font-weight: normal;
+	text-align: center;
+}
+
+/*Mengatur tata letak pelajaran secara kesamping berjajar*/
+.lesson{
+	float: left;
+	width: 25%;
+}
+
+
